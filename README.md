@@ -1,16 +1,75 @@
-# React + Vite
+# KDC University Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive college website built with **React**, **Vite**, and **Tailwind CSS**. This project showcases the infrastructure, courses, departments, and admission process of KDC University.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19**: Frontend library for building user interfaces.
+- **Vite**: Next-generation frontend tooling for fast development.
+- **Tailwind CSS 4**: Utility-first CSS framework for rapid styling.
+- **Framer Motion**: Library for production-ready animations.
+- **Lucide React**: Beautiful & consistent icons.
+- **React Router DOM**: Declarative routing for React applications.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Home Page**: Overview of the university with featured highlights.
+- **About Us**: Information about the university's mission, vision, and history.
+- **Admissions**: Detailed information on the admission process and requirements.
+- **Courses**: List of various programs and courses offered.
+- **Departments**: Information about different academic departments.
+- **Infrastructure**: Showcase of the university's campus and facilities.
+- **Contact Us**: Contact information and inquiry form.
+- **Responsive Design**: Fully optimized for various screen sizes.
+- **Smooth Animations**: Interactive UI elements using Framer Motion.
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+College-Website/
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── vite.config.js
+├── public/
+│   ├── kdc.ico
+│   └── vite.svg
+└── src/
+    ├── App.css
+    ├── App.jsx
+    ├── index.css
+    ├── main.jsx
+    ├── assets/
+    │   ├── academics.mp4
+    │   ├── admissions.mp4
+    │   ├── campus-life.mp4
+    │   ├── kdmchrc-logo.png
+    │   ├── Medicine_web_banner.mp4
+    │   ├── research-impact-4k.mp4
+    │   ├── research.mp4
+    │   ├── route_map.jpg
+    │   └── university.avif
+    ├── components/
+    │   ├── Footer.jsx
+    │   ├── HeaderSlideshow.jsx
+    │   └── Navbar.jsx
+    └── pages/
+        ├── About.jsx
+        ├── Admissions.jsx
+        ├── Contact.jsx
+        ├── Courses.jsx
+        ├── Departments.jsx
+        ├── Home.jsx
+        └── Infrastructure.jsx
+```
+
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- npm or yarn
+
+Developed with ❤️ for KDC University.
